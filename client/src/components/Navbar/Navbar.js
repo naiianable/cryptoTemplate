@@ -1,9 +1,10 @@
 import React from "react";
+import "./navbar.css";
 
 const Navbar = () => {
 	return (
 		<div>
-			<nav className="navbar navbar-light bg-light fixed-top">
+			<nav className="navbar navbar-light fixed-top">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="#">
 						Crypto Template
@@ -28,7 +29,7 @@ const Navbar = () => {
 								className="offcanvas-title"
 								id="offcanvasNavbarLabel"
 							>
-								Offcanvas
+								Menu
 							</h5>
 							<button
 								type="button"
@@ -62,7 +63,7 @@ const Navbar = () => {
 										data-bs-toggle="dropdown"
 										aria-expanded="false"
 									>
-										Dropdown
+										Sample Dropdown
 									</a>
 									<ul
 										className="dropdown-menu"
